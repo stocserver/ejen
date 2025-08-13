@@ -17,7 +17,7 @@ const AdminDashboard = () => {
 
           <Link href="/admin/about" className="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
             <h2 className="text-xl font-semibold mb-2">Edit About Page</h2>
-            <p className="text-gray-600">Update your company's about information</p>
+            <p className="text-gray-600">Update your company&apos;s about information</p>
           </Link>
 
           <Link href="/admin/contact" className="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">

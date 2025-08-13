@@ -1,9 +1,6 @@
-import { useState } from 'react';
 import Header from '../../../components/Header';
 
 const ProductsAdmin = () => {
-  const [products, setProducts] = useState([]); // This will be replaced with actual data fetching
-
   return (
     <div className="min-h-screen pt-20 bg-gray-50">
       <Header />

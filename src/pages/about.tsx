@@ -92,7 +92,7 @@ export default function About() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-4">Customer Focus</h3>
-              <p className="text-gray-600">Our customers' success is our priority in everything we do.</p>
+              <p className="text-gray-600">Our customers&apos; success is our priority in everything we do.</p>
             </div>
             
             <div className="text-center p-8">

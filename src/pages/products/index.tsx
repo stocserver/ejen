@@ -102,9 +102,9 @@ export default function Products() {
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
             Contact us today to learn more about our product offerings and how we can meet your food and beverage needs.
           </p>
-          <a href="/contact" className="bg-red-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-red-700 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1 inline-block">
+          <Link href="/contact" className="bg-red-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-red-700 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1 inline-block">
             Get in Touch
-          </a>
+          </Link>
         </div>
       </section>
     </div>
