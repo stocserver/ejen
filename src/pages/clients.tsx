@@ -35,7 +35,9 @@ interface ChartDataType {
       feature: any;
       value: number;
     }>;
-    backgroundColor: (context: any) => string;
+    backgroundColor: ((context: any) => string) | string;
+    borderColor?: ((context: any) => string) | string;
+    borderWidth?: number;
   }>;
 }
 
@@ -69,21 +71,15 @@ export default function Clients() {
             }),
             // Use simple function without accessing context.raw.value
             backgroundColor: function(context: any) {
-              // Check if we have a dataset
               if (!context.dataset) return '#e5e7eb';
-              
-              // Get the data value directly from the dataset
               const index = context.dataIndex;
               const value = context.dataset.data[index]?.value;
-              
               return value === 1 ? '#dc2626' : '#e5e7eb';
             },
             borderColor: function(context) {
               if (!context.dataset) return '#9ca3af';
-              
               const index = context.dataIndex;
               const value = context.dataset.data[index]?.value;
-              
               return value === 1 ? '#991b1b' : '#9ca3af';
             },
             borderWidth: 1
@@ -95,7 +91,7 @@ export default function Clients() {
       }
     };
 
-    loadData(); // Changed from loadWorldData() to loadData()
+    loadData(); // renamed from loadWorldData() to match the defined function
   }, []);
 
   const mapOptions = {
