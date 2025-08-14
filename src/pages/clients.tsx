@@ -102,7 +102,7 @@ export default function Clients() {
     plugins: {
       legend: {
         display: true,
-        position: 'bottom',
+        position: 'bottom' as const,
         labels: {
           generateLabels: () => [
             {
@@ -125,7 +125,7 @@ export default function Clients() {
         text: 'EJEN Global Client Distribution',
         font: {
           size: 18,
-          weight: 'bold',
+          weight: 'bold' as const,
         },
         padding: 20,
       },
@@ -144,8 +144,8 @@ export default function Clients() {
     },
     scales: {
       projection: {
-        axis: 'x',
-        projection: 'equalEarth'
+        axis: 'x' as const,
+        projection: 'equalEarth' as const
       }
     },
   };
