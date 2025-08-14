@@ -11,6 +11,7 @@ import { ChoroplethController, GeoFeature, ProjectionScale, ColorScale } from 'c
 import { Chart } from 'react-chartjs-2';
 import { useEffect, useState } from 'react';
 import { feature } from 'topojson-client';
+import type { FeatureCollection } from 'geojson';
 
 // Register Chart.js components
 ChartJS.register(
@@ -29,15 +30,14 @@ export default function Clients() {
   const [chartData, setChartData] = useState(null);
 
   useEffect(() => {
-    // Load world map data
-    const loadWorldData = async () => {
+    const loadData = async () => {
       try {
         // Load world atlas data
         const data = await fetch('https://unpkg.com/world-atlas/countries-50m.json')
           .then(r => r.json());
         
         // Extract countries using feature from topojson-client
-        const countries = feature(data, data.objects.countries).features;
+        const countries = (feature(data, data.objects.countries) as any).features;
         
         // Define target countries (USA, Canada, Taiwan, Vietnam)
         const targetCountries = ['United States of America', 'Canada', 'Taiwan', 'Vietnam'];
