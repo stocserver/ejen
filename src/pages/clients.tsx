@@ -26,8 +26,21 @@ ChartJS.register(
   ColorScale
 );
 
+// Define the chart data type
+interface ChartDataType {
+  labels: string[];
+  datasets: Array<{
+    label: string;
+    data: Array<{
+      feature: any;
+      value: number;
+    }>;
+    backgroundColor: (context: any) => string;
+  }>;
+}
+
 export default function Clients() {
-  const [chartData, setChartData] = useState(null);
+  const [chartData, setChartData] = useState<ChartDataType | null>(null);
 
   useEffect(() => {
     const loadData = async () => {
@@ -44,10 +57,10 @@ export default function Clients() {
         
         // Create dataset with simplified approach
         setChartData({
-          labels: countries.map(d => d.properties.name),
+          labels: countries.map((d: any) => d.properties.name),
           datasets: [{
             label: 'Countries',
-            data: countries.map(d => {
+            data: countries.map((d: any) => {
               const countryName = d.properties.name;
               return {
                 feature: d,
@@ -55,7 +68,7 @@ export default function Clients() {
               };
             }),
             // Use simple function without accessing context.raw.value
-            backgroundColor: function(context) {
+            backgroundColor: function(context: any) {
               // Check if we have a dataset
               if (!context.dataset) return '#e5e7eb';
               
@@ -82,7 +95,7 @@ export default function Clients() {
       }
     };
 
-    loadWorldData();
+    loadData(); // Changed from loadWorldData() to loadData()
   }, []);
 
   const mapOptions = {
