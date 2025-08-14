@@ -9,6 +9,7 @@ const eslintConfig = [
     extends: ['next'],
     rules: {
       'react/no-unescaped-entities': 'off',
+      'react/jsx-no-comment-textnodes': 'off',
     },
   }),
 ]
