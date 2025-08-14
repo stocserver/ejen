@@ -26,6 +26,7 @@ const Header = () => {
             <Link href="/" className="text-gray-700 hover:text-red-600 font-medium transition-all duration-300 hover:scale-105">Home</Link>
             <Link href="/about" className="text-gray-700 hover:text-red-600 font-medium transition-all duration-300 hover:scale-105">About</Link>
             <Link href="/products" className="text-gray-700 hover:text-red-600 font-medium transition-all duration-300 hover:scale-105">Products</Link>
+            <Link href="/clients" className="text-gray-700 hover:text-red-600 font-medium transition-all duration-300 hover:scale-105">Our Clients</Link>
             <Link href="/contact" className="bg-red-600 text-white px-6 py-2 rounded-full hover:bg-red-700 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5">Contact Us</Link>
           </div>
 
@@ -46,6 +47,7 @@ const Header = () => {
             <Link href="/" className="block text-gray-700 hover:text-red-600 font-medium transition-colors duration-200 py-2">Home</Link>
             <Link href="/about" className="block text-gray-700 hover:text-red-600 font-medium transition-colors duration-200 py-2">About</Link>
             <Link href="/products" className="block text-gray-700 hover:text-red-600 font-medium transition-colors duration-200 py-2">Products</Link>
+            <Link href="/clients" className="block text-gray-700 hover:text-red-600 font-medium transition-colors duration-200 py-2">Our Clients</Link>
             <Link href="/contact" className="block bg-red-600 text-white px-4 py-3 rounded-lg hover:bg-red-700 transition-colors duration-200 text-center font-medium">Contact Us</Link>
           </div>
         )}
