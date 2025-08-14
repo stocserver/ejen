@@ -131,7 +131,7 @@ export default function Clients() {
       },
       tooltip: {
         callbacks: {
-          label: function(context) {
+          label: function(context: any) {
             if (!context.dataset) return '';
             
             const index = context.dataIndex;
