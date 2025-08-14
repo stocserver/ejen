@@ -24,7 +24,7 @@ export default function TrumpTariffsFood2025() {
             "@context": "https://schema.org",
             "@type": "Article",
             "headline": "Trump's 2025 Tariffs: Disrupting North American Food Supply Chains",
-            "description": "Trump&apos;s 2025 tariff policies are reshaping the U.S.-Canada food supply chain, creating challenges and opportunities for distributors and consumers alike.",
+            "description": "Trump&apos;s 2025 tariff policies are reshaping the U.S.-Canada food supply chain",
             "author": {
               "@type": "Organization",
               "name": "EJEN"

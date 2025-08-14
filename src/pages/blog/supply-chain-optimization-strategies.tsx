@@ -80,7 +80,11 @@ export default function SupplyChainOptimizationStrategies() {
                 
                 <h2 className="text-3xl font-bold text-gray-800 mt-12 mb-6">Strategic Inventory Management</h2>
                 <p>
-                  In today&apos;s competitive food distribution landscape, supply chain optimization has become essential for maintaining profitability and customer satisfaction. Companies that can efficiently move products from farm to table while maintaining quality and minimizing costs will have a significant advantage in the marketplace.
+                  // Line 78 - Fix apostrophe
+                  In today&apos;s competitive food distribution landscape
+                  
+                  // Line 107 - Fix apostrophe
+                  EJEN&apos;s Optimization Approach
                 </p>
                 
                 <h2 className="text-3xl font-bold text-gray-800 mt-12 mb-6">Route Optimization and Fleet Management</h2>

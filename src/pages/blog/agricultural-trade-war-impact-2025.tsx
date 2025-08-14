@@ -99,7 +99,20 @@ export default function AgriculturalTradeWarImpact2025() {
                 <li>These high rates only apply when U.S. exports exceed predetermined tariff rate quotas</li>
                 <li>As of March 2025, the average fill rate for dairy products subject to quota was only 21.24%</li>
                 <li>At the end of 2024, the average fill rate for calendar year dairy quotas was only 26.72%</li>
-                <li>The over-quota rates in 2025 are virtually identical to those in 2020 during Trump's first term</li>
+                // Line 81 - Fix apostrophe
+                With over 20% of U.S. agricultural goods exported globally, retaliatory tariffs pose a major threat to farmers&apos; profitability.
+                
+                // Line 102 - Fix apostrophe  
+                President Trump has repeatedly highlighted Canada&apos;s &quot;250% to 390% tariff on various U.S. dairy products.&quot;
+                
+                // Line 126 - Fix apostrophe
+                The over-quota rates in 2025 are virtually identical to those in 2020 during Trump&apos;s first term
+                
+                // Line 136 - Fix quotes
+                While some consumers are participating in &quot;Buy Canadian&quot; campaigns to protest U.S. trade policies
+                
+                // Line 174 - Fix quotes
+                Possible implementation of &quot;reciprocal tariffs&quot;
               </ul>
 
               <h2>Supply Chain Disruption and Adaptation</h2>

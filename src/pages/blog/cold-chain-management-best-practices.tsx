@@ -104,7 +104,8 @@ export default function ColdChainManagementBestPractices() {
                 </p>
                 
                 <div className="bg-cyan-50 p-8 rounded-xl mt-12">
-                  <h3 className="text-2xl font-bold text-gray-800 mb-4">EJEN's Cold Chain Excellence</h3>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-4">// Line 107 - Fix apostrophe
+                  EJEN&apos;s Cold Chain Excellence</h3>
                   <p>
                     Our state-of-the-art cold chain facilities and rigorous temperature control protocols ensure 100% compliance with food safety regulations. We maintain detailed temperature records and provide complete traceability for all temperature-sensitive products.
                   </p>
