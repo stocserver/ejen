@@ -9,7 +9,7 @@ export default function TrumpTariffsFood2025() {
         <title>Trump's 2025 Tariffs: Disrupting North American Food Supply Chains | EJEN</title>
         <meta name="description" content="Analysis of how Trump's 2025 tariffs are causing chaos in US-Canada food supply chains, affecting farmers, distributors, and consumers across North America." />
         <meta name="keywords" content="Trump tariffs 2025, food supply chain disruption, US Canada trade war, agricultural tariffs, food distribution impact, supply chain chaos, North American food trade" />
-        <meta property="og:title" content="Trump's 2025 Tariffs: Disrupting North American Food Supply Chains" />
+        <meta property="og:title" content="Trump&apos;s 2025 Tariffs: Disrupting North American Food Supply Chains" />
         <meta property="og:description" content="How 2025 tariffs are reshaping food distribution between USA and Canada" />
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -68,22 +68,22 @@ export default function TrumpTariffsFood2025() {
                 <span className="text-gray-500 text-sm">8 min read</span>
               </div>
               <h1 className="text-4xl font-bold text-gray-900 mb-4">
-                Trump's 2025 Tariffs: Disrupting North American Food Supply Chains
+                Trump&apos;s 2025 Tariffs: Disrupting North American Food Supply Chains
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Donald Trump's renewed trade war is causing unprecedented chaos for farmers and food producers on both sides of the U.S.-Canada border, forcing businesses to disentangle supply chains that have been interconnected for decades.
+                Donald Trump&apos;s renewed trade war is causing unprecedented chaos for farmers and food producers on both sides of the U.S.-Canada border, forcing businesses to disentangle supply chains that have been interconnected for decades.
               </p>
             </header>
 
             <div className="prose prose-lg max-w-none">
               <h2>The Current State of Tariff Chaos</h2>
               <p>
-                As of March 2025, North America's food industry faces the overwhelming task of adapting to a turbulent situation of ever-changing trade rules. President Trump's administration has implemented a complex web of tariffs affecting agricultural products, with rates ranging from 20% on Chinese products to 25% on most Canadian and Mexican goods.
+                As of March 2025, North America&apos;s food industry faces the overwhelming task of adapting to a turbulent situation of ever-changing trade rules. President Trump&apos;s administration has implemented a complex web of tariffs affecting agricultural products, with rates ranging from 20% on Chinese products to 25% on most Canadian and Mexican goods.
               </p>
 
               <h2>Impact on Cross-Border Food Trade</h2>
               <p>
-                The agricultural supply chain underscores Canada's heavy dependency on the U.S. market. Canadian farmers and fishers produce more than the domestic market of 41 million Canadians can consume, making them reliant on American consumers who represent a market more than eight times larger.
+                The agricultural supply chain underscores Canada&apos;s heavy dependency on the U.S. market. Canadian farmers and fishers produce more than the domestic market of 41 million Canadians can consume, making them reliant on American consumers who represent a market more than eight times larger.
               </p>
 
               <h3>Key Affected Sectors:</h3>
@@ -106,7 +106,7 @@ export default function TrumpTariffsFood2025() {
 
               <h2>Farmer Sentiment and Market Outlook</h2>
               <p>
-                According to the latest Purdue University/CME Group Ag Economy Barometer, almost half of farmers believe a trade war leading to a significant decrease in U.S. agricultural exports is "likely" or "very likely." This sentiment reflects the uncertainty surrounding:
+                According to the latest Purdue University/CME Group Ag Economy Barometer, almost half of farmers believe a trade war leading to a significant decrease in U.S. agricultural exports is &quot;likely&quot; or &quot;very likely.&quot; This sentiment reflects the uncertainty surrounding:
               </p>
               <ul>
                 <li>Potential "reciprocal tariffs" returning in April 2025</li>

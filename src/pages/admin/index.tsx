@@ -1,4 +1,5 @@
-import { useState } from 'react';
+// Remove the unused useState import
+import Head from 'next/head';
 import Header from '../../components/Header';
 import Link from 'next/link';
 

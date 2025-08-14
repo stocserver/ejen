@@ -80,7 +80,7 @@ export default function FoodDistributionTrends2024() {
             <div className="container mx-auto px-4">
               <div className="max-w-4xl mx-auto prose prose-lg">
                 <p className="lead text-xl text-gray-600 mb-8">
-                  The food distribution industry is experiencing unprecedented transformation in 2024. From technological innovations to sustainability initiatives, these trends are reshaping how food moves from producers to consumers across North America and Asia.
+                  The food distribution industry is experiencing rapid transformation as companies adapt to changing consumer preferences, technological advances, and sustainability requirements. Today&apos;s distributors must balance efficiency, quality, and environmental responsibility while meeting the demands of an increasingly complex supply chain.
                 </p>
                 
                 <h2 className="text-3xl font-bold text-gray-800 mt-12 mb-6">1. Advanced Cold Chain Technology</h2>

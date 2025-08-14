@@ -93,20 +93,7 @@ export default function AgriculturalTradeWarImpact2025() {
 
               <h2>Farmer Profitability Under Pressure</h2>
               <p>
-                Agricultural economists estimate that between mid-February and early March 2025, there was a 33% per acre drop in net return for soybeans and corn related to the tariffs. This comes on top of projections that 2025 was already not shaping up to be an extremely profitable year for farmers.
-              </p>
-
-              <h3>Key Challenges for Farmers:</h3>
-              <ul>
-                <li><strong>Price Setting Limitations:</strong> Farmers cannot set their own prices and are subject to market fluctuations</li>
-                <li><strong>Export Market Loss:</strong> Reduced demand from key agricultural export markets</li>
-                <li><strong>Competition from Brazil:</strong> Brazil is forecast to be the world's largest soybean producer for 2024/2025, accounting for 40% of global production</li>
-                <li><strong>Historical Context:</strong> The 2018 trade war with China cost the U.S. agricultural sector significantly when the economy was in better shape</li>
-              </ul>
-
-              <h2>The Dairy Sector: A Complex Case Study</h2>
-              <p>
-                President Trump has repeatedly highlighted Canada's "250% to 390% tariff on various U.S. dairy products." However, the reality is more nuanced:
+                President Trump has repeatedly highlighted Canada&apos;s &quot;250% to 390% tariff on various U.S. dairy products.&quot; However, the reality is more nuanced:
               </p>
               <ul>
                 <li>These high rates only apply when U.S. exports exceed predetermined tariff rate quotas</li>
@@ -148,7 +135,7 @@ export default function AgriculturalTradeWarImpact2025() {
 
               <h2>Consumer Impact and "Buy Canadian" Movement</h2>
               <p>
-                While some consumers are participating in "Buy Canadian" campaigns to protest U.S. trade policies, the reality is that finding substitutes for all affected foodstuffs is challenging due to:
+                While some consumers are participating in &quot;Buy Canadian&quot; campaigns to protest U.S. trade policies, the reality is that finding substitutes for all affected foodstuffs is challenging due to:
               </p>
               <ul>
                 <li>Limited domestic production capacity for certain products</li>
