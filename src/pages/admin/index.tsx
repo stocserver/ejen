@@ -1,5 +1,4 @@
-// Remove the unused useState import
-import Head from 'next/head';
+// Remove the unused Head import
 import Header from '../../components/Header';
 import Link from 'next/link';
 

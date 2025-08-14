@@ -24,7 +24,7 @@ export default function TrumpTariffsFood2025() {
             "@context": "https://schema.org",
             "@type": "Article",
             "headline": "Trump's 2025 Tariffs: Disrupting North American Food Supply Chains",
-            "description": "Analysis of how Trump's 2025 tariffs are causing chaos in US-Canada food supply chains",
+            "description": "Trump&apos;s 2025 tariff policies are reshaping the U.S.-Canada food supply chain, creating challenges and opportunities for distributors and consumers alike.",
             "author": {
               "@type": "Organization",
               "name": "EJEN"
@@ -141,7 +141,7 @@ export default function TrumpTariffsFood2025() {
               </p>
 
               <p>
-                The interconnected nature of North American food systems means that tariffs imposed by either country will ultimately impact consumers on both sides of the border through higher prices and reduced product availability.
+                The implementation of Trump&apos;s tariff policies in 2025 has created significant disruption in the North American food supply chain, particularly affecting trade relationships between the United States and Canada.
               </p>
             </div>
 

@@ -111,7 +111,7 @@ export default function FoodDistributionTrends2024() {
                 <div className="bg-blue-50 p-8 rounded-xl mt-12">
                   <h3 className="text-2xl font-bold text-gray-800 mb-4">How EJEN Stays Ahead</h3>
                   <p>
-                    At EJEN, we're implementing these trends to better serve our clients across North America and Asia. Our investment in cold chain technology, sustainable practices, and digital solutions ensures we remain at the forefront of food distribution innovation.
+                    At EJEN, we&apos;re implementing these trends to better serve our clients across North America and Asia. Our investment in cold chain technology, sustainable practices, and digital solutions ensures we remain at the forefront of food distribution innovation.
                   </p>
                 </div>
                 
